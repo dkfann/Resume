@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[10pt, letterpaper, sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{enumitem}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+%\usepackage{cyklop}
+%\usepackage[T1]{fontenc}
+%\renewcommand{\sfdefault}{\rmdefault}
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{multicol}
+
+%----------------------------------------------------------------------------------------
+%    NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Danny} % Your first name
+\familyname{Fann} % Your last name
+%\setlength{\headheight}{0pt}
+%\setlength{\headsep}{0pt}
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Danny Fann Resume}
+%\address{312 Burlington Common}{Santa Ana, CA 92704}
+\mobile{(714) 722 2381}
+\phone{(714) 962 3318}
+%\fax{(000) 111 1113}
+\email{dfann@uci.edu}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%    EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\section{Qualifications Summary}
+%\begin{itemize}
+%\item Interned at three different departments at Edwards Lifesciences over the course of three years. Worked on various medical devices to ready them for commercial use.
+%\item Performed a multitude of testing methods such as corrosion testing, device validation testing, and retention testing.
+%% \item Used Pro-E to model testing apparatus such as fixers for device testing.
+%\item Prepared the new Worklife and Wellness website for deployment in late 2014.
+%% \item Designed graphics used as part of the official branding for Worklife and Wellness that were distributed across faculty and staff.
+%\end{itemize}
+
+
+
+\section{Education}
+
+\cventry{ Expected \hspace{3pt}August 2015}{Computer Science, Bachelors of Science}{The University of California, Irvine}{}{\empty}{}
+\cventry{September 2010 - June 2014}{Public Health Science, Bachelors of Science}{The University of California, Irvine}{}{\empty}{}  % Arguments not required can be left empty
+
+% \section{Coursework}
+% \begin{multicols}{2}
+% \begin{itemize}
+% 	\item Boolean Algebra and Logic
+%     \item Discrete Mathematics for Computer Science
+%     \item Computational Linear Algebra
+%     \item Introduction to Programming in Python Series
+%     \item Programming in C/C++
+%     \item Data Structure Implementation and Analysis
+%     \item Introduction to Computer Organization
+%     \item Principles in System Design
+%     \item Computer Networks
+%     \item Design and Analysis of Algorithms
+% \end{itemize}
+% \end{multicols}
+    
+%----------------------------------------------------------------------------------------
+%    PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\section{Projects}
+\textbf{Connect-K AI}
+\begin{itemize}
+{
+\item Helped code an AI in C++ for a Connect-K game module that utilized IDS and alpha-beta pruning to predict opponent moves and act accordingly.
+\item Programmed AI's ability to compute adjacent pieces and determine the value of a given board.
+\item Wrote the documentation explaining the features implemented in the AI.
+}
+\end{itemize}
+
+\textbf{SDL Game Engine}
+\begin{itemize}
+{
+\item Programmed collision detection and physics component of game engine in C++.
+\item Implemented rudimentary game design used in game engine demonstration.
+}
+
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%    WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{March 2014 - June 2014}{Human Resources Intern}{\textsc{UC Irvine Worklife and Wellness}}{Irvine}{}{
+\begin{itemize}
+\item Worked alongside 14 other interns in a large variety of projects and tasks with the goal of fostering a healthy and vibrant culture on UCI campus.
+\item Restructured and updated the revamped program website to be launched later in the year.
+\item Designed new cover for Healthy Meeting Guidelines used in project development meetings.
+%\item Designed 'UCI am Healthy' logo for drinking cups that were distributed at the annual Wellness and Safety Fair
+%\item Collaborated in making a video showcasing the healthy culture and lifestyles present in UCI faculty and staff.
+\end{itemize}}
+
+
+%\subsection{Vocational}
+\cventry{May 2013 - September 2013}{Advanced Tech R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
+\begin{itemize}
+\item Assisted in glutaraldahyde fixing for bovine aortic roots that were used for device testing that simulated aortic insufficiency.
+\item Performed pullout and push force testing to analyze clearance available for device deployment.
+%\item Performed retention testing to find force required to dislodge Helio device.
+\item Modeled sizers in Pro-E that were used for pullout testing of the Helio device.
+\end{itemize}}
+
+\cventry{June 2011 - \hspace{3pt}May 2013}{Transcatheter Heart Valve R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
+\begin{itemize}
+\item Conducted research on Embrella Feasibility and Animal Studies and compiled data for understanding Embrella's testing rationale and provided possible steps for moving forward with the development of the Embrella Device. 
+\item Performed corrosion testing on Embrella devices and checked metallic body for corrosion. Wrote and submitted corrosion resistance technical summary. 
+\item Created the documentation and presentation on Embrella Feasibility and Animal Studies. Presentation used in meetings to reach out of the other groups such as Clinical or for new members of the Embrella Project. 
+%\item Performed pore deformation and tear analysis on the Embrella Device, bearing data for understanding stress points and lead to manufacturing a support apparatus and packaging modifications. 
+%\item Performed PV and DV testing for Embrella Device involving deployment cycling, force testing, and suture and strut failure testing. 
+\item Performed flow model particulate testing for Embrella Device on pulsatile flow model. Gathered data on particulate travel patterns within a system simulating physiological conditions.
+%\item Began construction of simplified flow model for Embrella Device testing purposes. 
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{May 2010 - September 2010}{Heart Valve Therapy R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
+\begin{itemize}
+\item Created and submitted GLX Rabbit Calcification Study - Zero Time Protocol which showed that glutaraldehyde fixed tissue experienced significantly less calcification in comparison to other tissue fixing methods. 
+\item Documented and aided in the implants and explants of GLX tissues in rabbits for comparison to other tissue fixing methods in anti-calcification performance. 
+\item Ran x-ray imaging on implanted and explanted GLX tissues for pre- and post-operative analyses. 
+\end{itemize}}
+
+
+
+%----------------------------------------------------------------------------------------
+%    COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages and Technologies}
+
+\cvitem{Languages:}{Java (Basic), Python (Intermediate), C++ (Intermediate)}
+\cvitem{Technologies:}{HTML (Basic), CSS (Basic)}
+%\cvitem{Software}{Microsoft Word}
+
+
+%----------------------------------------------------------------------------------------
+%    COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
