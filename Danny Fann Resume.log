@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.9)  8 AUG 2015 12:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.9)  25 AUG 2015 23:53
 entering extended mode
 **Danny*Fann*Resume.tex
 ("C:\Users\Danny\Desktop\Danny Fann Resume\Resume\Danny Fann Resume.tex"
@@ -347,10 +347,32 @@ tter compatibility patches
 \cvcolumnautowidth=\skip63
 \bibindent=\skip64
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\moderncv\moderncvstyleclassic.sty"
-Package: moderncvstyleclassic 2013/04/29 v1.5.1 modern curriculum vitae and let
-ter style scheme: classic
+("C:\Program Files\MiKTeX 2.9\tex\latex\moderncv\moderncvstylebanking.sty"
+Package: moderncvstylebanking 2013/04/29 v1.5.1 modern curriculum vitae and let
+ter style scheme: banking
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\tex-gyre\tgpagella.sty"
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+("C:\Program Files\MiKTeX 2.9\tex\latex\moderncv\moderncviconsawesome.sty"
+Package: moderncviconsawesome 2013/04/29 v1.5.1 modern curriculum vitae and let
+ter icons: awesome
+
+WARNING: to use the awesome icon set, please use XeTeX or LuaTeX to compile you
+r document; switching to the marvosym icon set.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\moderncv\moderncviconsmarvosym.sty"
 Package: moderncviconsmarvosym 2013/04/29 v1.5.1 modern curriculum vitae and le
 tter icons: marvosym
@@ -475,7 +497,10 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen160
 \pgf@zx=\dimen161
 \pgf@zy=\dimen162
-)
+LaTeX Font Info:    Try loading font information for T1+qpl on input line 926.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tex-gyre\t1qpl.fd"
+File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
+))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
@@ -613,31 +638,33 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-))))
-\quotewidth=\skip65
-\hintscolumnwidth=\skip66
-\separatorcolumnwidth=\skip67
-\maincolumnwidth=\skip68
-\doubleitemmaincolumnwidth=\skip69
-\listitemsymbolwidth=\skip70
-LaTeX Font Info:    Try loading font information for U+mvs on input line 68.
+)))))
+\maketitlebox=\box52
+\maketitletempbox=\box53
+\maketitlewidth=\skip65
+\maketitleboxwidth=\skip66
+\quotewidth=\skip67
+\hintscolumnwidth=\skip68
+\separatorcolumnwidth=\skip69
+\maincolumnwidth=\skip70
+\doubleitemcolumnwidth=\skip71
+\listitemsymbolwidth=\skip72
+LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
-\listitemmaincolumnwidth=\skip71
-\listdoubleitemmaincolumnwidth=\skip72
-\makecvtitlenamewidth=\skip73
-\baseletterheight=\skip74
+\listitemmaincolumnwidth=\skip73
+\listdoubleitemmaincolumnwidth=\skip74
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \section with sig. 'sm' on line 160.
+. Redefining command \section with sig. 'sm' on line 168.
 .................................................
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \subsection with sig. 'sm' on line 169.
+. Redefining command \subsection with sig. 'sm' on line 176.
 .................................................
-\cvitemwithcommentmainbox=\box52
+\cvitemwithcommentmainbox=\box54
 \cvitemwithcommentmainlength=\skip75
 \cvitemwithcommentcommentlength=\skip76
 )
@@ -677,7 +704,7 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count144
-\mult@box=\box53
+\mult@box=\box55
 \multicol@leftmargin=\dimen192
 \c@unbalance=\count145
 \c@collectmore=\count146
@@ -690,14 +717,12 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \postmulticols=\dimen196
 \multicolsep=\skip77
 \multicolbaselineskip=\skip78
-\partial@page=\box54
-\last@line=\box55
-\mult@rightbox=\box56
-\mult@grightbox=\box57
-\mult@gfirstbox=\box58
-\mult@firstbox=\box59
-\@tempa=\box60
-\@tempa=\box61
+\partial@page=\box56
+\last@line=\box57
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@gfirstbox=\box60
+\mult@firstbox=\box61
 \@tempa=\box62
 \@tempa=\box63
 \@tempa=\box64
@@ -713,13 +738,15 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
 \c@columnbadness=\count150
 \c@finalcolumnbadness=\count151
 \last@try=\dimen197
 \multicolovershoot=\dimen198
 \multicolundershoot=\dimen199
-\mult@nat@firstbox=\box77
-\colbreak@box=\box78
+\mult@nat@firstbox=\box79
+\colbreak@box=\box80
 \multicol@sort@counter=\count152
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -738,12 +765,8 @@ Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -768,9 +791,6 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen200
 \Hy@linkcounter=\count153
@@ -851,16 +871,12 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count163
 \scratchdimen=\dimen258
-\scratchbox=\box79
+\scratchbox=\box81
 \nofMPsegments=\count164
 \nofMParguments=\count165
 \everyMPshowfont=\toks29
@@ -880,9 +896,8 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ppl.cfg"
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
 
@@ -929,7 +944,7 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box80
+\AtBeginShipoutBox=\box82
 Package hyperref Info: Link coloring OFF on input line 68.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -946,11 +961,27 @@ LaTeX Info: Redefining \nameref on input line 68.
 ("C:\Users\Danny\Desktop\Danny Fann Resume\Resume\Danny Fann Resume.out")
 ("C:\Users\Danny\Desktop\Danny Fann Resume\Resume\Danny Fann Resume.out")
 \@outlinefile=\write4
-\makecvtitledetailsbox=\box81
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 70.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 70.
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-mvs.cfg"
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 70.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 70.
+
+
+LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 70.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 70.
 
@@ -970,65 +1001,61 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 70.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 70.
+(Font)              <10> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 70.
+(Font)              <7> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 70.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-mvs.cfg"
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-\makecvtitlepicturebox=\box82
-\makecvtitledetailswidth=\skip80
-\makecvtitlepicturewidth=\skip81
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 88.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 88.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 88.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
 
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 147.
+LaTeX Font Warning: Font shape `T1/lmss/b/sc' undefined
+(Font)              using `T1/lmss/b/n' instead on input line 152.
 
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 161.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 
 ("C:\Users\Danny\Desktop\Danny Fann Resume\Resume\Danny Fann Resume.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Danny*Fann*Resume.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 26785 strings out of 493921
- 493329 string characters out of 3147282
- 660801 words of memory out of 3000000
- 29670 multiletter control sequences out of 15000+200000
- 51730 words of font info for 64 fonts, out of 3000000 for 9000
+ 26844 strings out of 493921
+ 494807 string characters out of 3147282
+ 654422 words of memory out of 3000000
+ 29741 multiletter control sequences out of 15000+200000
+ 42608 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 69i,11n,58p,10369b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,11n,60p,10369b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso
-9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on "Danny Fann Resume.pdf" (1 page, 189008 bytes).
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on "Danny Fann Resume.pdf" (1 page, 125393 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
- 19501 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 12333 words of extra memory for PDF output out of 14400 (max. 10000000)
 

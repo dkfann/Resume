@@ -26,7 +26,7 @@
 
 \documentclass[10pt, letterpaper, sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 %\usepackage{enumitem}
@@ -58,8 +58,8 @@
 \phone{(714) 962 3318}
 %\fax{(000) 111 1113}
 \email{danny.k.fann@gmail.com}
-%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-%\extrainfo{additional information}
+%\homepage{dannyfann.com}{dannyfann.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{dannyfann.com}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
@@ -82,10 +82,10 @@
 %\end{itemize}
 
 
-
+\vspace*{-9mm}
 \section{Education}
 
-\cventry{ Expected \hspace{3pt}August 2015}{Computer Science, Bachelors of Science}{The University of California, Irvine}{}{\empty}{}
+\cventry{June 2014 - August 2015}{Computer Science, Bachelors of Science}{The University of California, Irvine}{GPA: 3.0}{\empty}{}
 \cventry{September 2010 - June 2014}{Public Health Science, Bachelors of Science}{The University of California, Irvine}{}{\empty}{}  % Arguments not required can be left empty
 
 % \section{Coursework}
@@ -127,10 +127,15 @@
 
 \textbf{RFID Reader}
 \begin{itemize}
-\item Assembled an RFID reader that scanned a card and unloacked an NO electric strike lock if the card ID was accepted.
+\item Assembled an RFID reader that scanned a card and unlocked an NO electric strike lock if the card ID was accepted.
 \item Programmed an ATmega32 microprocessor in C to receive UART signals from the RFID reader, handle card identification, and trigger a relay to open an electric strike lock.
 \end{itemize}
 
+\textbf{3D Reconstruction with Structured Lighting}
+\begin{itemize}
+\item Reconstructed a 3D model of a mannequin lit with structured lighting by decoding gray-coded images and triangulated a 3D mesh with the recovered pixel coordinates.
+\item Converted the reconstructed point cloud into a .ply model that could be imported into a 3D rendering program such as Maya or Blender.
+\end{itemize}
 
 \section{Languages and Technologies}
 
@@ -150,15 +155,15 @@
 \cventry{May 2013 - September 2013}{Advanced Technology R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
 \begin{itemize}
 \item Assisted in glutaraldahyde fixing for bovine aortic roots that were used for device testing that simulated aortic insufficiency.
-\item Performed pullout and push force testing to analyze clearance available for device deployment.
+%\item Performed pullout and push force testing to analyze clearance available for device deployment.
 %\item Performed retention testing to find force required to dislodge Helio device.
 \item Modeled sizers in Pro-E that were used for pullout testing of the Helio device.
 \end{itemize}}
 
 \cventry{June 2011 - \hspace{3pt}May 2013}{Transcatheter Heart Valve R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
 \begin{itemize}
-\item Conducted research on Embrella Feasibility and Animal Studies and compiled data for understanding Embrella's testing rationale and provided possible steps for moving forward with the development of the Embrella Device. 
-\item Performed corrosion testing on Embrella devices and checked metallic body for corrosion. Wrote and submitted corrosion resistance technical summary. 
+\item Compiled data for understanding testing rationale and provided possible steps for moving forward with the development of the Embrella Device. 
+%\item Performed corrosion testing on Embrella devices and checked metallic body for corrosion. Wrote and submitted corrosion resistance technical summary. 
 %\item Created the documentation and presentation on Embrella Feasability studies, which was used in meetings to reach out of the other groups such as Clinical or for new members of the Embrella Project. 
 %\item Performed pore deformation and tear analysis on the Embrella Device, bearing data for understanding stress points and lead to manufacturing a support apparatus and packaging modifications. 
 %\item Performed PV and DV testing for Embrella Device involving deployment cycling, force testing, and suture and strut failure testing. 
@@ -171,7 +176,6 @@
 \cventry{May 2010 - September 2010}{Heart Valve Therapy R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
 \begin{itemize}
 \item Created and submitted GLX Rabbit Calcification Study - Zero Time Protocol which showed that glutaraldehyde fixed tissue experienced significantly less calcification in comparison to other tissue fixing methods. 
-\item Documented and aided in the implants and explants of GLX tissues in rabbits for comparison to other tissue fixing methods in anti-calcification performance. 
 \item Ran x-ray imaging on implanted and explanted GLX tissues for pre- and post-operative analyses. 
 \end{itemize}}
 
