@@ -48,17 +48,17 @@
 
 \firstname{Danny} % Your first name
 \familyname{Fann} % Your last name
-%\setlength{\headheight}{0pt}
+\setlength{\headheight}{0pt}
 %\setlength{\headsep}{0pt}
 
 % All information in this block is optional, comment out any lines you don't need
 %\title{Danny Fann Resume}
-\address{312 Burlington Common}{Santa Ana, CA 92704}
+%\address{Santa Ana, CA 92704}
 \mobile{(714) 722 2381}
-\phone{(714) 962 3318}
+%\phone{}
 %\fax{(000) 111 1113}
 \email{danny.k.fann@gmail.com}
-%\homepage{dannyfann.com}{dannyfann.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 \extrainfo{dannyfann.com}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
@@ -68,6 +68,7 @@
 \begin{document}
 
 \makecvtitle % Print the CV title
+\vspace*{-10mm}
 
 %----------------------------------------------------------------------------------------
 %    EDUCATION SECTION
@@ -82,10 +83,10 @@
 %\end{itemize}
 
 
-\vspace*{-9mm}
+
 \section{Education}
 
-\cventry{August 2015}{Computer Science, Bachelors of Science}{The University of California, Irvine}{GPA: 3.0}{\empty}{}
+\cventry{September 2015}{Computer Science, Bachelors of Science}{The University of California, Irvine}{}{GPA: 3.0}{}
 \cventry{June 2014}{Public Health Science, Bachelors of Science}{The University of California, Irvine}{}{\empty}{}  % Arguments not required can be left empty
 
 % \section{Coursework}
@@ -110,43 +111,35 @@
 \section{Projects}
 \textbf{3D Reconstruction with Structured Lighting}
 \begin{itemize}
-\item Reconstructed a 3D model of a mannequin lit with structured lighting in MATLAB by decoding gray-coded images and triangulated 3D point clouds with the recovered pixel coordinates.
+\item Reconstructed a 3D model of a mannequin lit with structured lighting in MATLAB by decoding gray-coded images and triangulating 3D point clouds with the recovered pixel coordinates.
 \item Merged multiple 3D meshes with Poisson Reconstruction in MeshLab to create a 3D PLY model.
 \end{itemize}
 
 \textbf{RFID Reader}
 \begin{itemize}
-\item Programmed an ATmega32 microprocessor in C to receive UART signals from the RFID reader, handle card identification, and trigger a relay to open an electric strike lock.
+\item Programmed an ATmega32 microprocessor in C to receive UART signals from an RFID reader, handle card identification, and trigger a relay to open an electric strike lock.
 \end{itemize}
 
 \textbf{Connect-K AI}
 \begin{itemize}
-{
-\item Assisted in coding an AI in C++ for a Connect-K game module that utilized IDS to predict opponent moves and act accordingly.
-\item Programmed AI's ability to compute adjacent pieces and determine the value of a given board.
-\item Wrote documentation explaining the features implemented in the AI.
-}
+\item Collaborated with a team member to code an AI in C++ for a Connect-K game module that utilized IDS to predict an opponent's possible moves and act accordingly.
+\item Developed AI's ability to compute the value of a game board based on piece adjacency and positioning.
 \end{itemize}
 
 \textbf{SDL Game Engine}
 \begin{itemize}
-{
-\item Programmed collision detection and physics component of game engine in C++ that handled sprites and projectiles.
-}
+\item Programmed the collision detection and physics components of an SDL-based game engine in C++ that handled sprites and projectiles.
 \end{itemize}
 
-
-
-
-
+%----------------------------------------------------------------------------------------
+%    LANGUAGES AND TECHNOLOGIES SECTION
+%----------------------------------------------------------------------------------------
 \section{Languages and Technologies}
-
-\cvitem{Languages:}{Java (Intermediate), Python (Intermediate), C++ (Intermediate), MATLAB (Intermediate), Javascript (Basic)}
-\cvitem{Technologies:}{HTML (Intermediate), CSS (Intermediate), Meteor.js (Basic)}
+\cvitem{Languages}{Java (Intermediate), Python (Prior Experience), C++ (Prior Experience), MATLAB (Intermediate), \\ \hspace*{1.95cm}Javascript (Intermediate)}
+\cvitem{Technologies}{HTML (Intermediate), CSS (Intermediate), Meteor.js (Basic), jQuery (Basic), MongoDB (Basic), \\ \hspace*{2.18cm} Express.js (Basic), Angular.js (Basic) Node.js (Basic) }
 %----------------------------------------------------------------------------------------
 %    WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-
 \section{Experience}
 \cventry{June 2015 - Present}{Advanced Materials and Technology R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
 \begin{itemize}
@@ -164,7 +157,7 @@
 
 \cventry{June 2011 - \hspace{3pt}May 2013}{Transcatheter Heart Valve R\&D Intern}{\textsc{Edwards Lifesciences}}{Irvine}{}{
 \begin{itemize}
-\item Compiled data for understanding device testing rationale and provided possible steps for moving forward with the development of the Embrella Device. 
+\item Compiled data for understanding Embrella's testing rationale and provided steps for moving forward with the development of the Embrella Device. 
 %\item Performed corrosion testing on Embrella devices and checked metallic body for corrosion. Wrote and submitted corrosion resistance technical summary. 
 %\item Created the documentation and presentation on Embrella Feasability studies, which was used in meetings to reach out of the other groups such as Clinical or for new members of the Embrella Project. 
 %\item Performed pore deformation and tear analysis on the Embrella Device, bearing data for understanding stress points and lead to manufacturing a support apparatus and packaging modifications. 
